@@ -1,0 +1,5 @@
+name = input("Hello! What is your first name? ")
+lname = input("what is your last name? ")
+age = input("Nice to meet you, " + name + " " + lname + ". What is your age? ")
+diff = 100 - int(age)
+print("Amazing! Just another " + str(diff) + " years before you turn 100")
